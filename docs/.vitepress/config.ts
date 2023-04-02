@@ -17,9 +17,15 @@ export default defineConfig({
         text: "Introduction", 
         collapsed: true,
         items: [
-          { text: 'What is Nudeny API?', link: '/intro/nudeny-api' },
-          { text: 'Examples', link: '/intro/Examples.md'},
-          { text: 'Runtime API Examples', link: '/intro/Docs.md' }
+          { text: 'What is Nudeny API?', link: '/intro/nudeny-api' }
+        ]
+      },
+      {
+        text: 'Examples', 
+        collapsed: true,
+        items: [
+          { text: 'Python', link: '/nudenytools/chromeExtension' },
+          { text: 'JavaScript', link: '/' },
         ]
       },
       {
@@ -37,8 +43,17 @@ export default defineConfig({
           { text: 'Getting Started', link: '/guides/getting-started' },
           { text: 'API Reference', link: '/guides/api-reference' }
         ]
-      }
-
+      },
+      {
+        text: 'Nudeny Tools', 
+        collapsed: true,
+        items: [
+          { text: 'Chrome Extension', link: '/nudenytools/chromeExtension' },
+          { text: 'Discord Bot', link: '/' },
+          { text: 'Playground', link: '/' }
+        ],
+      },
+     
     ],
 
     socialLinks: [

@@ -1,3 +1,3 @@
-# Getting Started
+# Discord Bot installation
 
 Ullamco enim cupidatat commodo exercitation Lorem dolore proident labore ipsum est ad.
