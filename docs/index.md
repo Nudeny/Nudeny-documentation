@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Get started
-      link: /intro/nudeny-api
+      link: /nudenyAPI
     - theme: alt
       text: Read the docs
-      link: /intro/docs
+      link: /readthedocs/docs
 
 features:
   - title: Nudeny Chrome Extension 

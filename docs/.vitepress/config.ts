@@ -24,16 +24,16 @@ export default defineConfig({
         text: 'Examples', 
         collapsed: true,
         items: [
-          { text: 'Python', link: '/nudenytools/chromeExtension' },
-          { text: 'JavaScript', link: '/' },
+          { text: 'Python', link: '/examples/python.md' },
+          { text: 'JavaScript', link: '/examples/js.md' },
         ]
       },
       {
         text: 'API Reference', 
         collapsed: true,
         items: [
-          { text: 'Nudeny API', link: '/api/nudeny-api' },
-          { text: 'Runtime API', link: '/api/runtime-api' }
+          { text: 'Nudeny API', link: '/api-reference/nudeny-api' },
+          { text: 'Runtime API', link: '/api-reference/runtime-api' }
         ]
       },
       {
@@ -49,8 +49,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Chrome Extension', link: '/nudenytools/chromeExtension' },
-          { text: 'Discord Bot', link: '/' },
-          { text: 'Playground', link: '/' }
+          { text: 'Discord Bot', link: '/nudenytools/discordBot.md' },
+          { text: 'Playground', link: '/nudenytools/playground.md' }
         ],
       },
      
