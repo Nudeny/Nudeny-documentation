@@ -8,8 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/intro/docs' },
-      { text: 'About Us', link: '/about/'}
+      { text: 'Docs', link: '/readthedocs/docs' },
+      { text: 'About Us', link: '/about/aboutUs'}
     ],
 
     sidebar: [
@@ -17,15 +17,17 @@ export default defineConfig({
         text: "Introduction", 
         collapsed: true,
         items: [
-          { text: 'What is Nudeny API?', link: '/intro/nudeny-api' }
+          { text: 'What is Nudeny API?', link: '/nudenyAPI' }
         ]
       },
       {
         text: 'Examples', 
         collapsed: true,
         items: [
-          { text: 'Python', link: '/examples/python.md' },
+          { text: 'Endpoints', link: '/examples/endpoints.md' },
           { text: 'JavaScript', link: '/examples/js.md' },
+          { text: 'Python', link: '/examples/python.md' },
+          { text: 'PHP', link: '/examples/php.md' },
         ]
       },
       {
