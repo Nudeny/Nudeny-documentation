@@ -28,6 +28,7 @@ export default defineConfig({
           { text: 'JavaScript', link: '/examples/js.md' },
           { text: 'Python', link: '/examples/python.md' },
           { text: 'PHP', link: '/examples/php.md' },
+          { text: 'Dart', link: '/examples/dart.md' },
         ]
       },
       {

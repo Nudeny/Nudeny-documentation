@@ -35,12 +35,12 @@ With the basic usage of the Nudeny API in Python, you can easily create a reques
 ## Installation
 
 To install the Nudeny API module for Python, run:
-:::tip
-we recommend setting-up virtual environment so that the dependency is not installed globally 
-:::
 ```
 pip install nudeny
 ```
+:::tip
+we recommend setting-up virtual environment so that the dependency is not installed globally 
+:::
 
 ## Classification use case
 
