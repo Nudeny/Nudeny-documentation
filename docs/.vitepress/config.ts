@@ -60,7 +60,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'discord', link: 'https://l.facebook.com/l.php?u=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D1086270816666263654%26permissions%3D534723950710%26scope%3Dbot%26fbclid%3DIwAR3Y05N3RvRD4Ic47FTV4DyGC8Ms28_ZSflq628X6caomIYLJZxJCbtRkwU&h=AT1L9aPwelc1seStmCMkAmoSIL_IaDNtbHy2bgegUB8VNpk5d27St3qy-C-OHHVWVGP7-JxRN3SULXQnhu0aoh1e5Va9lKMFF9NyXZsKX_cE486J5_7TMUDAp7aPX3A60ZniPA' },
+      { icon: 'discord', link: 'https://discord.com' },
       { icon: 'github', link: 'https://github.com/nudeny' },
     ]
   }
