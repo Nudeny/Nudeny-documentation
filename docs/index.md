@@ -25,7 +25,7 @@ features:
     link: /nudenytools/discordBot
     details: Ensure your Discord server is free of inappropriate images with the nudeny bot - try it out now for a seamless moderation experience.
   - title: Try our API
-    link: /nudenytools/playground
+    link: http://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com/docs?fbclid=IwAR2iAvAchar52BZ6qejfRoUfCItOumsHDZV3gmREVMCPgzLWQkCYNOAkIAs
     icon: 🚀
     details: Explore our user-friendly Swagger Docs and easily integrate the "nudeny" API's powerful machine learning-based nudity detection and classification into your application to keep your content safe and secure.
 ---
