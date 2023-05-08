@@ -5,6 +5,11 @@ outline: deep
 
 The table below lists the available endpoints for the Nudeny API. Each endpoint serves a specific purpose in detecting and censoring nudity in images. The API supports both local image files and URLs as input. The response of each endpoint includes information about the detected or censored image, such as bounding boxes for the exposed parts and URLs of the censored version of the image.
 
+### base url
+ ```
+ https://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com
+ ```
+
 ::: tip
 if you don't notice, every method are `POST` request.
 :::

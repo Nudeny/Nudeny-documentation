@@ -15,14 +15,14 @@ export default defineConfig({
     sidebar: [
      {
         text: "Introduction", 
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'What is Nudeny API?', link: '/nudenyAPI' }
         ]
       },
       {
         text: 'Examples', 
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Endpoints', link: '/examples/endpoints.md' },
           { text: 'JavaScript', link: '/examples/js.md' },
@@ -32,24 +32,8 @@ export default defineConfig({
         ]
       },
       {
-        text: 'API Reference', 
-        collapsed: true,
-        items: [
-          { text: 'Nudeny API', link: '/api-reference/nudeny-api' },
-          { text: 'Runtime API', link: '/api-reference/runtime-api' }
-        ]
-      },
-      {
-        text: 'Guides', 
-        collapsed: true,
-        items: [
-          { text: 'Getting Started', link: '/guides/getting-started' },
-          { text: 'API Reference', link: '/guides/api-reference' }
-        ]
-      },
-      {
         text: 'Nudeny Tools', 
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Chrome Extension', link: '/nudenytools/chromeExtension' },
           { text: 'Discord Bot', link: '/nudenytools/discordBot.md' },
