@@ -64,7 +64,6 @@ Return value `Map<dynamic>`
 ```dart
 import 'package:nudeny/nudeny.dart'; 
 
-
 void main() async { 
   var nudeny = Nudeny();
   var classifyResult = await nudeny.classify([ './Nudeny/testing/blackbuck.bmp', './Nudeny/testing/4f6e821141824b9ef81f82e7cf341288.jpg' ]); 
@@ -115,7 +114,6 @@ Return value `Map<dynamic>`
 ```dart
 import 'package:nudeny/nudeny.dart'; 
 
-
 void main() async { 
   var nudeny = Nudeny();
   var detectResult = await nudeny.detect([
@@ -141,7 +139,6 @@ Return value `Map<dynamic>`
 
 ```dart
 import 'package:nudeny/nudeny.dart'; 
-
 
 void main() async { 
   var nudeny = Nudeny();
@@ -173,7 +170,6 @@ Return value `Map<dynamic>`
 ```dart
 import 'package:nudeny/nudeny.dart'; 
 
-
 void main() async { 
   var nudeny = Nudeny();
   var censorResult = await nudeny.censor([
@@ -198,7 +194,6 @@ Return value `Map<dynamic>`
 
 ```dart
 import 'package:nudeny/nudeny.dart'; 
-
 
 void main() async { 
   var nudeny = Nudeny();
