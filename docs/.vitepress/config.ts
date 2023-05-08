@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/docs/',
   title: "Nudeny API ",
   description: "All you need to know about Nudeny API",
   themeConfig: {
