@@ -2,16 +2,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/docs/',
   title: "Nudeny API ",
   description: "All you need to know about Nudeny API",
   themeConfig: {
+    darkModeSwitchLabel: 'light',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/readthedocs/docs' },
+      { text: 'Docs', link: 'documentation/endpoints' },
       { text: 'About Us', link: '/about/aboutUs'}
     ],
-
     sidebar: [
      {
         text: "Introduction", 
@@ -21,14 +22,14 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Examples', 
+        text: 'Documentation', 
         collapsed: false,
         items: [
-          { text: 'Endpoints', link: '/examples/endpoints.md' },
-          { text: 'JavaScript', link: '/examples/js.md' },
-          { text: 'Python', link: '/examples/python.md' },
-          { text: 'PHP', link: '/examples/php.md' },
-          { text: 'Dart', link: '/examples/dart.md' },
+          { text: 'Endpoints', link: '/documentation/endpoints.md' },
+          { text: 'JavaScript', link: '/documentation/js.md' },
+          { text: 'Python', link: '/documentation/python.md' },
+          { text: 'PHP', link: '/documentation/php.md' },
+          { text: 'Dart', link: '/documentation/dart.md' },
         ]
       },
       {
@@ -44,7 +45,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.com' },
+      { icon: 'discord', link: 'https://discord.com/oauth2/authorize?client_id=1086270816666263654&permissions=534723950710&scope=bot&fbclid=IwAR0aO48nWx5Yo2a4ngP5is-DXdTMhPwaCSpFLFz7qQsl5p_yE72jlIboUI8' },
       { icon: 'github', link: 'https://github.com/nudeny' },
     ]
   }

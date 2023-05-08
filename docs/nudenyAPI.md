@@ -7,4 +7,3 @@ It is designed to be easy to integrate into your existing workflow, with simple 
 
 Overall, Nudeny API provides a powerful and accurate solution for detecting and classifying nudity in images, making it an essential tool for any application that requires image moderation.
 
-#

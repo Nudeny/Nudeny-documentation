@@ -13,7 +13,7 @@ hero:
       link: /nudenyAPI
     - theme: alt
       text: Read the docs
-      link: /readthedocs/docs
+      link: /documentation/endpoints
 
 features:
   - title: Nudeny Chrome Extension 
