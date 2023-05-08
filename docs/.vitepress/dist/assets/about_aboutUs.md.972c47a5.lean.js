@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,N as o}from"./chunks/framework.7310dad2.js";const _=JSON.parse('{"title":"About Us","description":"","frontmatter":{},"headers":[],"relativePath":"about/aboutUs.md"}'),i={name:"about/aboutUs.md"},r=o("",7),s=[r];function n(c,u,l,d,p,h){return a(),t("div",null,s)}const b=e(i,[["render",n]]);export{_ as __pageData,b as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,N as l}from"./chunks/framework.7310dad2.js";const d=JSON.parse('{"title":"PHP","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"documentation/php.md"}'),p={name:"documentation/php.md"},o=l("",53),e=[o];function t(r,c,D,F,y,i){return a(),n("div",null,e)}const A=s(p,[["render",t]]);export{d as __pageData,A as default};
