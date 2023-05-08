@@ -25,7 +25,7 @@ form_data = {
         "rb",
     ),
 }
-response = requests.post("http://127.0.0.1:8000/censor/", files=form_data)
+response = requests.post("https://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com/censor/", files=form_data)
 
 print(response.content)
 

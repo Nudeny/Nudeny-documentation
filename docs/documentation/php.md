@@ -25,7 +25,7 @@ First, create a form inside your index.php file:
 <!DOCTYPE html>
 <html>
 <body>
-    <form action="submit_form.php" method="post"        enctype="multipart/form-data">
+    <form action="submit_form.php" method="post" enctype="multipart/form-data">
         <label for="image">Image:</label>
         <input type="file" id="files" name="image"><br>
         <input type="submit" value="Submit">
