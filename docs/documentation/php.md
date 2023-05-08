@@ -68,8 +68,7 @@ require_once 'Nudeny.php';
 
 use Nudeny\Nudeny\Nudeny;
 
-    $file = $_FILES['image'];
-    $response = Nudeny::classifyUrl(array("test", 'test'));
+    $response = Nudeny::classifyUrl(array("image-url", 'image-url'));
     echo $response;
  ```
  ### classifyMultiPartForm 
@@ -109,8 +108,7 @@ require_once 'Nudeny.php';
 
 use Nudeny\Nudeny\Nudeny;
 
-    $file = $_FILES['image'];
-    $response = Nudeny::detectUrl(array("test", 'test'));
+    $response = Nudeny::detectUrl(array("image-url", 'image-url'));
     echo $response;
 ```
  ### detectMultiPartForm
@@ -150,8 +148,7 @@ require_once 'Nudeny.php';
 
 use Nudeny\Nudeny\Nudeny;
 
-    $file = $_FILES['image'];
-    $response = Nudeny::censorUrl(array("test", 'test'));
+    $response = Nudeny::censorUrl(array("image-url", 'image-url'));
     echo $response;
 ```
  ### censorMultiPartForm
