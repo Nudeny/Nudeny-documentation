@@ -6,13 +6,13 @@ export default defineConfig({
   title: "Nudeny API ",
   description: "All you need to know about Nudeny API",
   themeConfig: {
-    darkModeSwitchLabel: 'light',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: 'documentation/endpoints' },
+      { text: 'Docs', link: '/documentation/endpoints' },
       { text: 'About Us', link: '/about/aboutUs'}
     ],
+
     sidebar: [
      {
         text: "Introduction", 

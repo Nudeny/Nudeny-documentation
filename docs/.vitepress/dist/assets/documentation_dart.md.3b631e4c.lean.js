@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,N as l}from"./chunks/framework.7310dad2.js";const D=JSON.parse('{"title":"Dart","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"documentation/dart.md"}'),e={name:"documentation/dart.md"},t=l("",53),p=[t];function o(c,r,i,y,d,C){return a(),n("div",null,p)}const u=s(e,[["render",o]]);export{D as __pageData,u as default};

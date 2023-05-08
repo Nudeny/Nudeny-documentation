@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,N as o}from"./chunks/framework.7310dad2.js";const C=JSON.parse('{"title":"JavaScript","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"documentation/js.md"}'),l={name:"documentation/js.md"},p=o("",95),e=[p];function t(c,r,y,D,F,A){return a(),n("div",null,e)}const d=s(l,[["render",t]]);export{C as __pageData,d as default};
