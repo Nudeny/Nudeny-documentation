@@ -24,7 +24,7 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
     const formData = new FormData(form);
 
-    fetch("https://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com/classify/", {
+    fetch("http://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com/classify/", {
         method: "POST",
         body: formData,
     })
@@ -53,7 +53,7 @@ form.addEventListener("submit", async (event) => {
     const formData = new FormData(form);
 
     try {
-        const response = await fetch("http://127.0.0.1:8000/classify/", {
+        const response = await fetch("http://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com/classify/", {
             method: "POST",
             body: formData,
         });
