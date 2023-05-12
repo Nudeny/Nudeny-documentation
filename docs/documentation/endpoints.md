@@ -7,7 +7,7 @@ The table below lists the available endpoints for the Nudeny API. Each endpoint 
 
 ### base url
  ```
- https://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com
+ http://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com
  ```
 
 ::: tip
