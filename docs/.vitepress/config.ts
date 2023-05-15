@@ -36,22 +36,10 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
-              text: 'Browser Extensions',
-              items: [
-                {
-                  text: 'Chrome Extension',
-                  link: '',
-                },
-                {
-                  text: 'Opera Add-On',
-                  link: '',
-                },
-                {
-                  text: 'Microsoft Edge Add-On',
-                  link: 'https://microsoftedge.microsoft.com/addons/detail/nudeny/ligkpogkigdnjhclanjfjniekbnkibcj?fbclid=IwAR3z5kcqHawLB4dVY7NfGp2jUaJW7ila3jyeckpAb_hBcuHimtVkfxa-hkA',
-                },
-              ],
+              text: 'Extensions',
+              link: '/Nudenytools/Extensions.md',
             },
+           
             {
               text: 'Discord Bot',
               link: 'https://discord.com/oauth2/authorize?client_id=1086270816666263654&permissions=534723950710&scope=bot',

@@ -16,9 +16,9 @@ hero:
       link: /documentation/endpoints
 
 features:
-  - title: Nudeny Chrome Extension 
+  - title: Nudeny Browser Extension 
     icon:  🌍
-    link: https://microsoftedge.microsoft.com/addons/detail/nudeny/ligkpogkigdnjhclanjfjniekbnkibcj?fbclid=IwAR3z5kcqHawLB4dVY7NfGp2jUaJW7ila3jyeckpAb_hBcuHimtVkfxa-hkA
+    link: /Nudenytools/Extensions
     details: Keep your browsing experience safe and secure with the nudeny Chrome extension - stop inappropriate content in its tracks. 
   - title: Nudeny Discord Bot
     icon:  🤖
