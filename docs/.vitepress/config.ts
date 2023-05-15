@@ -31,15 +31,38 @@ export default defineConfig({
           { text: 'Dart', link: '/documentation/dart.md' },
         ]
       },
-      {
-        text: 'Nudeny Tools', 
-        collapsed: false,
-        items: [
-          { text: 'Chrome Extension', link: '/nudenytools/chromeExtension' },
-          { text: 'Discord Bot', link: '/nudenytools/discordBot.md' },
-          { text: 'Playground', link: '/nudenytools/playground.md' }
-        ],
-      },
+        {
+          text: 'Nudeny Tools',
+          collapsed: false,
+          items: [
+            {
+              text: 'Browser Extensions',
+              items: [
+                {
+                  text: 'Chrome Extension',
+                  link: '',
+                },
+                {
+                  text: 'Opera Add-On',
+                  link: '',
+                },
+                {
+                  text: 'Microsoft Edge Add-On',
+                  link: 'https://microsoftedge.microsoft.com/addons/detail/nudeny/ligkpogkigdnjhclanjfjniekbnkibcj?fbclid=IwAR3z5kcqHawLB4dVY7NfGp2jUaJW7ila3jyeckpAb_hBcuHimtVkfxa-hkA',
+                },
+              ],
+            },
+            {
+              text: 'Discord Bot',
+              link: 'https://discord.com/oauth2/authorize?client_id=1086270816666263654&permissions=534723950710&scope=bot',
+            },
+            {
+              text: 'Playground',
+              link: 'http://ec2-18-136-200-224.ap-southeast-1.compute.amazonaws.com/docs',
+            },
+          ],
+        },
+        
      
     ],
 
